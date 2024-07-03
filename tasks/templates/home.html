@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<main class="container py-5">
+     <section class="card card-body " >
+          <h1 class="display-1 text-center">Django App</h1>
+          <p>¡Bienvenido a nuestra aplicación de gestión de tareas en Django!
+                Aquí puedes organizar tus tareas diarias de manera eficiente. Después de registrarte y iniciar sesión, 
+               podrás crear, guardar y completar tus tareas. Las tareas importantes se resaltarán para que no las pierdas
+                de vista. Además, tienes la flexibilidad de modificar o actualizar cualquier tarea según sea necesario.
+                 ¡Tu privacidad es nuestra prioridad! Todas tus actividades están protegidas,
+                  asegurando que solo tú tengas acceso a tus datos.
+                   Regístrate ahora para empezar a mejorar tu productividad.
+                    ¡Esperamos que disfrutes usando nuestra aplicación!</p>
+
+          <div class="text-center">
+               <a class="btn btn-secondary" href="/signin/" >
+                    Signin
+               </a>
+               <a class="btn btn-dark" href="/signup" >
+                    Signup
+               </a>
+          </div>
+
+     </section>
+     <div id="copyright" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; color: #2d2e2e;">
+          Copyright&copy; 2023 - Página creada por NievasMartin - Todos los derechos reservados
+      </div>
+</main>
+
+{% endblock %}
+
